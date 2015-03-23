@@ -1,0 +1,37 @@
+$cream: #fbf3e6;
+
+body{
+  background-color: black;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: $cream;
+  letter-spacing: 1px;
+}
+.date-break{
+  display: none;
+}
+.text-center{
+  text-align: center;
+}
+.full-w{
+  width: 100%;
+}
+.shadowed {
+  -webkit-filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.7));
+  filter: url(#drop-shadow);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+.text-shadow{
+  text-shadow: 0px 0px 8px rgba(0,0,0,0.9);
+}
+.bordered{
+  border: 1px solid $cream;
+}
+.divider{
+  background-color: $cream;
+  height: 2px;
+  width: 100%;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}

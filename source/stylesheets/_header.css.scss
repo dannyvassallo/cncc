@@ -1,0 +1,57 @@
+.header-wrap{
+  background: url(https://s3.amazonaws.com/myfangate.com/cncc/skyline.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.logo, .headline{
+  max-width: 600px;
+}
+.logo{
+  margin-bottom: 30px;
+}
+.headline{
+  margin: 20px auto 10px;
+}
+.album-mini{
+  background-color: rgba(0,0,0,0.7);
+  border: 3px solid rgba(0,0,0,0.8);
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.flag{
+  width: 45px;
+  margin-top: -8px;
+  margin-right: 10px;
+}
+.new-album{
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+.available{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.album{
+  max-width: 345px;
+}
+@media (max-width: 1200px){
+  .new-album{
+    margin-top: 50px;
+  }
+}
+@media (max-width: 992px){
+  .new-album{
+    margin-top: 90px;
+  }
+  .date-break{
+    display: block;
+  }
+}
+@media (max-width: 768px){
+  .new-album{
+    margin-top: 10px !important;
+  }
+}
