@@ -7,8 +7,11 @@
 }
 .section-intro{
   background-color: black !important;
+  color: $cream !important;
 }
-
+.section-text{
+  color: $cream;
+}
 
 @media (max-width: 1200px) {
   .dcsns-content {
